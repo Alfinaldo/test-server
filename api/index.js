@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 // Menentukan port server
-const port = 3000;
+const port = 30;
 
 // Mengatur route untuk merespons permintaan GET ke halaman utama
 app.get('/', (req, res) => {
